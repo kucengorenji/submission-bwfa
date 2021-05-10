@@ -1,3 +1,5 @@
+import icon from '../../assets/movie.png'
+
 class NavigationBar extends HTMLElement{
     constructor(){
         super();
@@ -12,7 +14,7 @@ class NavigationBar extends HTMLElement{
         <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="src/assets/movie.ico" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                <img src="${icon}" alt="" width="30" height="24" class="d-inline-block align-text-top">
                 Search Movie TMDB
             </a>
             </div>
